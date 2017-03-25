@@ -8,20 +8,20 @@ export default {
   entry: [
     'eventsource-polyfill',
     'webpack-hot-middleware/client?reload=true',
-    './src/index',
+    './src/index'
   ],
   target: 'web',
   output: {
     path: __dirname + '/dist',
     publicPath: '/',
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   devServer: {
-    contentBase: './src',
+    contentBase: './src'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin(),
+    new webpack.NoErrorsPlugin()
   ],
   module: {
     loaders: [
@@ -33,4 +33,4 @@ export default {
       { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' }
     ]
   }
-}; 
+};
