@@ -28,7 +28,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
       />
       <TextInput
         name="length"
-        label="length"
+        label="Length"
         value={course.length}
         onChange={onChange}
         error={errors.length}
