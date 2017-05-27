@@ -1,0 +1,17 @@
+{
+  "preset": "jquery",
+  "maximumLineLength":null,
+  "requireSpacesInsideParentheses":null,
+  "validateQuoteMarks":null,
+  "requireSpacesInsideObjectBrackets": null,
+  "requireSpaceBeforeBlockStatements": null,
+  "requireSpacesInFunctionExpression": null,
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInFunctionExpression": null,
+  "requireSpacesInAnonymousFunctionExpression": null,
+  "requireOperatorBeforeLineBreak": null,
+  "requireCapitalizedComments": null,
+  "requireSpacesInsideBrackets": null,
+  "requirePaddingNewLinesBeforeLineComments": null
+}
